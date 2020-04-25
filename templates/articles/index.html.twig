@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}<title>Doughnuts-online</title>
+
+  <link rel="stylesheet" type="/css" href="css/style.css">
+{% endblock %}
+
+
+{% block body %}
+  <h4 style="font-family: Optima"><u>ABOUT US</u></h4>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  <div class="top">
+    <div id="mainTitle">Check the weather here!!</div>
+    <div class='searchContainer'>
+      <input id="query" type="text" placeholder='Enter a city'></input>
+      <button id="search">GO</button>
+    </div>
+  </div>
+  <div class="main">
+    <div id="weatherResults"></div>
+  </div>
+  <div >
+    <h4>CONTACT US</h4>
+    <p>DieSachbearbeiter
+      Choriner Straße 49
+      10435 Berlin
+      E-Mail: moinsen2@blindtextgenerator.com</p>
+  </div>
+
+
+{% endblock %}
+{% block javascripts %}
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="js/main.js"></script>
+{% endblock %}
